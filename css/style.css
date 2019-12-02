@@ -1,0 +1,128 @@
+.beta-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    transform: rotate(40deg);
+    background: #3498db;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+
+.bottom-page {
+    position: relative;
+}
+
+img[src="img/machine.png"] {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    transform: rotate(20deg);
+    width: 60px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+img[src="img/vagues.svg"] {
+    width: 100%;
+    margin: 0;
+}
+
+.heading-brand img {
+    max-width: 250px;
+}
+
+.row {
+    text-align: center;
+}
+
+.cta-button {
+    background: #c0392b;
+    border-radius: 4px;
+    color: white;
+    padding: 11px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.45);
+    font-size: larger;
+}
+
+section {
+    padding-bottom: 0 !important;
+}
+
+.promo-img {
+    max-width: 400px;
+}
+
+#relax {
+    text-align: center;
+    margin-right: 30px;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin: 0;
+    width: 90px;
+    height: 90px;
+}
+
+footer {
+    padding-bottom: 0rem !important;
+    padding-top: 0rem !important;
+}
+
+
+.bubbles * {
+    position: absolute;
+    border-radius: 50%;
+}
+
+#bubble-1, #bubble-2, #bubble-3 {
+    background: #2980b9;
+}
+
+#bubble-4, #bubble-5, #bubble-6 {
+    background: #3498db;
+}
+
+.bubbles #bubble-1 {
+        top: 150px;
+        left: 50px;
+        width: 20px;
+        height: 20px;
+}
+
+.bubbles #bubble-2 {
+        top: 95px;
+        left: 20px;
+        width: 20px;
+        height: 20px;
+}
+
+.bubbles #bubble-3 {
+        top: 40px;
+        left: 40px;
+        width: 10px;
+        height: 10px;
+}
+
+.bubbles #bubble-4 {
+        top: 185px;
+        left: 20px;
+        width: 12px;
+        height: 12px;
+}
+
+.bubbles #bubble-5 {
+        top: 55px;
+        left: 75px;
+        width: 30px;
+        height: 30px;
+}
+
+.bubbles #bubble-6 {
+        top: 25px;
+        left: 125px;
+        width: 23px;
+        height: 23px;
+}
