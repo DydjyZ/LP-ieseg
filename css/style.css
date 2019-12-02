@@ -64,6 +64,7 @@ section {
     margin: 0;
     width: 90px;
     height: 90px;
+    margin: 4rem;
 }
 
 footer {
@@ -77,75 +78,88 @@ footer {
     border-radius: 50%;
 }
 
-#bubble-1, #bubble-2, #bubble-3 {
+#bubble-1,
+#bubble-2,
+#bubble-3 {
     background: #2980b9;
 }
 
-#bubble-4, #bubble-5, #bubble-6 {
+#bubble-4,
+#bubble-5,
+#bubble-6 {
     background: #3498db;
 }
 
 .bubbles #bubble-1 {
-        top: 150px;
-        left: 50px;
-        width: 20px;
-        height: 20px;
-        animation: float 17s infinite ease-out;
+    top: 150px;
+    left: 50px;
+    width: 20px;
+    height: 20px;
+    animation: float 17s infinite ease-out;
 }
 
 .bubbles #bubble-2 {
-        top: 95px;
-        left: 20px;
-        width: 20px;
-        height: 20px;
-        animation: float 9.7s infinite ease-out;
+    top: 95px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    animation: float 9.7s infinite ease-out;
 }
 
 .bubbles #bubble-3 {
-        top: 40px;
-        left: 40px;
-        width: 10px;
-        height: 10px;
-        animation: float 12.2s infinite ease-out;
+    top: 40px;
+    left: 40px;
+    width: 10px;
+    height: 10px;
+    animation: float 12.2s infinite ease-out;
 }
 
 .bubbles #bubble-4 {
-        top: 185px;
-        left: 20px;
-        width: 12px;
-        height: 12px;
-        animation: float 6s infinite ease-out;
+    top: 185px;
+    left: 20px;
+    width: 12px;
+    height: 12px;
+    animation: float 6s infinite ease-out;
 }
 
 .bubbles #bubble-5 {
-        top: 55px;
-        left: 75px;
-        width: 30px;
-        height: 30px;    
-        animation: float 10s infinite ease-out;
+    top: 55px;
+    left: 75px;
+    width: 30px;
+    height: 30px;
+    animation: float 10s infinite ease-out;
 }
 
 .bubbles #bubble-6 {
-        top: 25px;
-        left: 125px;
-        width: 23px;
-        height: 23px;
-        animation: float 6.9s infinite ease-out;
+    top: 25px;
+    left: 125px;
+    width: 23px;
+    height: 23px;
+    animation: float 6.9s infinite ease-out;
 }
 
 @keyframes float {
     0% {
-      transform: translateY(0);
-      -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
     }
-  
+
     50% {
-      transform: translateY(1rem);
-      -webkit-transform: translateY(1rem);
+        transform: translateY(1rem);
+        -webkit-transform: translateY(1rem);
     }
-  
+
     100% {
-      transform: translateY(0);
-      -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
     }
-  }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .bubbles {
+        display: none;
+    }
+
+}
